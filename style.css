@@ -1,0 +1,102 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #444;
+}
+
+.nav-link {
+  color: #c2c2c2;
+}
+
+.nav-link:visited {
+  color: #c2c2c2;
+}
+
+a {
+  color: #e38f42;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e38f42;
+}
+
+.first-section {
+  background-image: url(img/form-background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divHeader {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.mainText {
+  font-size: 36px;
+}
+
+.bottomText {
+  font-size: 15px;
+  color: #c2c2c2;
+}
+
+.textFooter {
+  text-align: center;
+  font-size: 12px;
+  color: #c2c2c2;
+}
+
+.btn {
+  background-color: #e38f42;
+  border: none;
+  color: white;
+  padding: 15px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #d18800;
+}
+
+.mainSide {
+  font-size: 36px;
+}
+
+.bottomSide {
+  font-size: 18;
+}
+
+.blackbtn {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.blackbtn:hover {
+  background-color: #ffffff59;
+}
+
+.footer-section {
+  height: 100vh;
+}
+
+h6 {
+  color: #888;
+}
+
+.full-wd {
+  width: 100%;
+  height: 50%;
+}
+
+.color {
+  background-color: #f8f8f8;
+}
+/*# sourceMappingURL=style.css.map */

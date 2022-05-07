@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3cc8f7c5a5.js" crossorigin="anonymous"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg">
+
+      <div class="container">
+
+        <div class="col-9">
+          <a class="nav-link active" aria-current="page" href="#">Klub podróżniczy</a>
+        </div>
+        <div class="col-2">
+          <a class="nav-link active" aria-current="page" href="#">Dołącz do nas</a>
+        </div>
+        <div class="col-1">
+          <a class="nav-link active" aria-current="page" href="#inspirujemy">Inspiracje</a>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="first-section">
+
+    <div class="container h-100 text-white">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-4 lewa">
+          <div class="col p-3 divHeader">
+            <div class="col">
+              <p class="mb-1 mainText">Dołącz do nas</p>
+              <p class="mb-1 bottomText">Wypełnij zgłoszenie na członka klubu</p>
+            </div>
+          </div>
+
+          <form class="p-3">
+            <input type="text" id="defaultContactFormName" class="form-control mb-2 rounded-0"
+              placeholder="Imię i nazwisko">
+            <input type="email" id="defaultContactFormEmail" class="form-control mb-2 rounded-0" placeholder="Email">
+            <input type="email" id="defaultContactFormEmail" class="form-control mb-2 rounded-0" placeholder="Telefon">
+
+            <div class="form-group">
+              <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                placeholder="Message"></textarea>
+            </div>
+
+            <button class="btn btn-info mt-3 mb-3 w-100" type="submit">Zapisz się</button>
+
+            <p class="textFooter">Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodnie z <a
+                href="">polityką
+                prywatrości</a></p>
+
+        </div>
+
+        <div class="col-6 text-center prawa">
+
+          <p class="mb-1 mainSide"><b>Świat jest na wyciagniecie reki</b></p>
+          <p class="mb-1 bottomSide">Poznaj ludzi, których łączy wspólna pasja do podróżowania. Przekonaj się jak
+            wygląda życie bez granic</p>
+          <button class="btn btn-info mt-3 mb-3 " type="submit">Znajdź nas <i
+              class="fa-solid fa-angle-right"></i></button>
+          <button class="btn btn-info blackbtn mt-3 mb-3 " type="submit">Dowiedz się wiecej <i
+              class="fa-regular fa-lightbulb"></i></button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+
+    <section class="footer-section" id="inspirujemy">
+      <div class="d-flex  align-items-center mt-5 full-wd">
+        <div class="container">
+          <div class="row">
+            <div class="col-4  ">
+
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                  src="https://player.vimeo.com/video/115014610?h=d520f9ca65"
+                  style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+            </div>
+            <div class="col-6 ms-5">
+              <h2>Inspirujemy</h2>
+              <h6>Poznaj historie ludzi, ktorzy zreaizowali swoje marzenia.</h6><br>
+              <h6>Podróżowanie pozwala poznac Świat i odkryć siebie. Spełniaj swoje marzenia i zdobywaj nowe pasje. Daj
+                sie ponieść przygodzie i dołącz do grona pasjonatów, którzy codziennie udowadniają, że nie ma rzeczy
+                niemożliwych.</h6><br>
+
+              <a href="#">Więcej historii</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center full-wd color">
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+              <h2>O nas</h2><br>
+              <h6>Naszym głównym celem jest wymiana doświadczeń między podróznikami podczas cyklicznych spotkań. Naszym
+                najwiekszym kapitałem jest wiedza i zaangażowanie naszych członków.</h6>
+            </div>
+            <div class="col-6">
+              <h2>Kontakt</h2>
+              <h6><a href="#">klub@podroznika.pl</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
