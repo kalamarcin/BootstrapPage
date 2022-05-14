@@ -110,11 +110,11 @@ h6 {
 }
 
 .video {
-  padding: 0 0 0 0;
+  padding: 56.25% 0 0 0;
   position: relative;
 }
 
-.iframe {
+iframe {
   position: absolute;
   top: 0;
   left: 0;
